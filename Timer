@@ -1,0 +1,11 @@
+# Timer
+This a litle bit timer code, if you are beginner can understand easy.
+function setData(selector, endtime, idDay, idHour, idMinute, idSecond){
+        const timer = document.querySelector(selector),
+              days = timer.querySelector(idDay),
+              hours = timer.querySelector(idHour),
+              minutes = timer.querySelector(idMinute),
+              seconds = timer.querySelector(idSecond),
+ }
+ 
+ setData('.timer', deadLine, '#days', '#hours', '#minutes', '#seconds');
